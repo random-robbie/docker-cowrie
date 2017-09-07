@@ -21,7 +21,8 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
       git \
       virtualenv \
       python-virtualenv \
-      python-setuptools
+      python-setuptools \
+      nano
 
     # Build a cowrie environment from github master HEAD.
 RUN su - cowrie -c "\
